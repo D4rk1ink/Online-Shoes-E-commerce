@@ -49,7 +49,7 @@ public class ShoppingCart {
     
     public Boolean pay(String token,Integer amount){
         try {
-            Client client = new Client(this.publicKey,"skey_test_56ctg4stb11s1qvejkb");
+            Client client = new Client(this.publicKey);
             Charge charge = client.charges().create(new Charge.Create()
                     .amount(amount*100) // THB 1,000.00
                     .currency("THB")
