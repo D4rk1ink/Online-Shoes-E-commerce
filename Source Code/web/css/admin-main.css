@@ -1,0 +1,160 @@
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+ul {
+
+}
+
+ul li {
+    display: block;
+}
+
+.left-col{
+    width: 50px;
+}
+
+.right-col{
+    margin-left: 50px;
+    transition: 0.5s;
+}
+
+.sidenav {
+    height: 100%;
+    width: inherit;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    white-space: nowrap;
+}
+
+.sidenav > div {
+    width: 100%;
+    position: absolute;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.sidenav ul {
+    display: block;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+}
+
+.sidenav-hided{
+    visibility: hidden;
+    opacity: 0;
+}
+
+.sidenav-on li {
+    padding-top: 7px;
+    padding-left: 30px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 13px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a span{
+    font-size: 20px;
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+.sidenav ul li:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.content .title-bold {
+    margin-bottom: 20px;
+}
+
+.form-login{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.form-login > div{
+    padding: 20px;
+    background-color: rgba(166, 225, 236, 0.5);
+    border-radius: 5px;
+    opacity: 5;
+}
+
+.form-group-submit{
+    margin-top: 20px;
+}
+
+.table-list,
+.table-list th{
+    text-align:center;
+}
+
+.table-list tr,
+.table-list td,
+.table-list th{
+   border: 1px solid #ddd;
+}
+
+.header-title{
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.product-table table{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.product-table table tr:hover{
+    background-color: #FAFAFA;
+}
+
+.product-table table .table-header{
+    padding-bottom: 10px;
+}
+
+.product-table table td,
+.product-table table th{
+    height: 60px;
+    border: 1px solid #ECECEC;
+}
+
+.product-table table td{
+    padding: 0 20px;
+}
+
+.product-table table th{
+    border-bottom: 2px solid #ECECEC;
+}
+
+.product-table input[type="submit"]{
+    background-color: #ECECEC;
+}
