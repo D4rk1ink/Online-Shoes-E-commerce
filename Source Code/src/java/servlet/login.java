@@ -36,7 +36,7 @@ public class login extends HttpServlet {
             List listsession = new ArrayList();
             if(auth.login(acc.selectAccountByAuth(email, password))){
                 listsession.add(auth.getSession());
-                listsession.add(new ShoppingCart("pkey_test_56cw02p8ce1vqp01n2k"));
+                listsession.add(new ShoppingCart("public_key_omise"));
                 HttpSession session = request.getSession();
                 session.setAttribute("user", listsession);
                 response.sendRedirect("/home");
