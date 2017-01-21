@@ -22,10 +22,10 @@
 
 <b>ตั้งค่าการติดต่อ Database</b>
 
-แก้ไขค่าต่างๆ ในไฟล์ MyServletContext.java
+แก้ไขค่าต่างๆ ในไฟล์ MyServletContext.java<br />
 
--host name
--port
--database name
--database username
--database password
+-host name<br />
+-port<br />
+-database name<br />
+-database username<br />
+-database password<br />
