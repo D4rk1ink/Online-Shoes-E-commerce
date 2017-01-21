@@ -19,3 +19,13 @@
 สามารถค้นหาสินค้าได้<br />
 สามารถเพิ่มสินค้าลงตะกร้าสินค้าได้<br />
 สามารถสั่งสินค้าและชาระเงินได้ทันที (ตัดเงินผ่านระบบ Omise)<br />
+
+<b>ตั้งค่าการติดต่อ Database</b>
+
+แก้ไขค่าต่างๆ ในไฟล์ MyServletContext.java
+
+-host name
+-port
+-database name
+-database username
+-database password
