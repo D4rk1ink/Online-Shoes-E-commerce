@@ -7,7 +7,7 @@ import javax.servlet.ServletContextListener;
 public class MyServletContext implements ServletContextListener{
     ServletContext context;
     public void contextInitialized(ServletContextEvent contextEvent) {
-        Connector.setConnection("localhost", 3306, "shoponline", "root", "");
+        Connector.setConnection("host name", "port", "database name", "database user name", "database password");
     }
     public void contextDestroyed(ServletContextEvent contextEvent) {
 
