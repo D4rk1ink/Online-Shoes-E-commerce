@@ -30,8 +30,8 @@
 -database username<br />
 -database password<br />
 
-<b>Set Omise Key</b>
-file : servlet/login.java
+<b>Set Omise Key</b><br />
+file : servlet/login.java<br />
 '''
 listsession.add(new ShoppingCart("public_key_omise"));
 '''
