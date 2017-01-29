@@ -31,7 +31,7 @@
 -database password<br />
 
 <b>Set Omise Key</b>
+file : servlet/login.java
 '''
-#servlet/login.java
 listsession.add(new ShoppingCart("public_key_omise"));
 '''
