@@ -29,3 +29,9 @@
 -database name<br />
 -database username<br />
 -database password<br />
+
+<b>Set Omise Key</b>
+'''
+#servlet/login.java
+listsession.add(new ShoppingCart("public_key_omise"));
+'''
